@@ -1,0 +1,111 @@
+/* Header container */
+.header {
+  background-image: url('../Images/BgBackground.jpeg'); /* Use the image as a background */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Content within the header */
+.header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo section */
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-family: 'Georgia', serif; /* A more traditional font */
+}
+
+.logo p {
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navigation menu */
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 0;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Hover effect with transparency */
+  border-radius: 5px;
+}
+
+/* Contact and search section */
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact input[type="text"] {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 150px;
+}
+
+.phone {
+  text-align: right;
+  color: white;
+}
+
+.phone p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.phone span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+}

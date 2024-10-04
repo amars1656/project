@@ -1,0 +1,35 @@
+/* Header.css */
+
+.header {
+  position: relative;
+  height: 100vh; /* Adjust the height as needed */
+  background-image: url('../../assets/Images/BgBackground.jpeg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF; /* White text color */
+  text-align: center;
+  padding: 0 15px; /* Add padding for small screens */
+}
+
+.header-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 90%; /* Ensure content is responsive */
+}
+
+.header-title {
+  font-size: 4rem; /* Adjusted for better responsiveness */
+  margin: 0;
+  font-weight: bold;
+}
+
+.header-subtitle {
+  font-size: 1.5rem; /* Adjusted for better responsiveness */
+  margin: 10px 0 0;
+  font-weight: normal;
+  letter-spacing: 2px;
+}

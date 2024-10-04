@@ -1,0 +1,88 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #4a4a4a;
+    padding: 10px 20px;
+}
+
+.navbar-logo h1 {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+}
+
+.navbar-login-btn{
+    margin-left: 450px;
+}
+
+.navbar-logo p {
+    font-size: 14px;
+    color: #ccc;
+    margin: 0;
+}
+
+.navbar-logo{
+    margin-left: 5px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+}
+
+.navbar-links li {
+    margin-right: 15px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #367C6A;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.navbar-links a:hover {
+    background-color: #2f5c50;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search input[type="text"] {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-button {
+    background-color: #367C6A;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #2f5c50;
+}
+
+.navbar-contact-btn {
+    background-color: #367C6A;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 400px;
+}
+
+.navbar-contact-btn:hover {
+    background-color: #2f5c50;
+}

@@ -1,0 +1,48 @@
+.about-us-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f2f7fc; 
+}
+
+.about-us-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-content {
+  max-width: 600px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.about-us-content h2 {
+  font-size: 28px;
+  color: #234c3a; 
+  margin-bottom: 10px;
+}
+
+.about-us-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #5c5c5c; 
+}
+
+.more-info-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #234c3a; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.more-info-btn:hover {
+  background-color: #1d3f31; 
+}

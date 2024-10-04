@@ -1,0 +1,47 @@
+/* registrationpage.css */
+
+.add-user-section .container {
+  max-width: 800px; /* Center the container horizontally */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.form-header h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.form-section h2 {
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center; /* Center the section headers */
+}
+
+.form-section:nth-child(2) h2 {
+  background-color: #28a745;
+}
+
+.btn-submit {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
